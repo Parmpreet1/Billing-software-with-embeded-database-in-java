@@ -5,7 +5,6 @@
  */
 package billing;
 import DatabaseConnection.Database;
-import com.mysql.jdbc.Connection;
 import net.proteanit.sql.DbUtils;
 import java.sql.*;
 import java.util.logging.Level;
@@ -362,7 +361,8 @@ public class Product_Stocks extends javax.swing.JFrame {
             // TODO add your handling code here:
             
             Database db=new Database();
-            Connection con=(Connection)db.connect();
+            Connection con;
+            con=(Connection)db.connect();
             PreparedStatement pst=con.prepareStatement("delete from product where product_id="+Rp_id.getText());
             //delete product
             pst.executeUpdate();

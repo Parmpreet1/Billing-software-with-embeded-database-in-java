@@ -8,17 +8,17 @@ import DatabaseConnection.Database;
 import java.awt.Component;
 import net.proteanit.sql.DbUtils;
 import java.sql.*;
-import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.table.TableModel;
-import java.awt.Graphics.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
+//import javax.swing.JPanel;
+//import javax.swing.table.TableModel;
+//import java.awt.Graphics.*;
+//import java.util.ArrayList;
 /**
  *
  * @author Parm sohi
